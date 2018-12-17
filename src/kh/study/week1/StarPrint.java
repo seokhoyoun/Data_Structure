@@ -10,9 +10,12 @@ public class StarPrint {
 //		TriangleLB(sc.nextInt());
 //		TriangleLU(sc.nextInt());
 //		TriangleRU(sc.nextInt());
-		TriangleRB(sc.nextInt());
+//		TriangleRB(sc.nextInt());
+//		spira(sc.nextInt());
+		npira(sc.nextInt());
 	}
 	
+
 	static void StarSquare(int count) {		//  입력 받은 숫자 크기만큼 사각형을 만들어 출력
 		for(int i = 0; i < count; i++) {
 			for(int j = 0; j < count; j++) {
@@ -61,6 +64,34 @@ public class StarPrint {
 		}
 	}
 	
+	static void spira(int count) {
+		for(int i = 0; i < count; i++) {
+			for(int k = 0; k < count-(i+1); k++) {
+				System.out.print("☆");
+			}
+			for(int j = 0; j < i*2+1; j++) {
+				System.out.print("★");
+			}
+			for(int n = 0; n < count-(i+1); n++) {
+				System.out.print("☆");
+			}System.out.println();
+		}
+	}
+	
+	static void npira(int count) {
+		{
+			for(int i = 0; i < count; i++) {
+				for(int k = 0; k < count-(i+1); k++) {
+					System.out.print("☆");
+				}
+				for(int j = 0; j < i*2+1; j++) {
+					System.out.print("★");
+				}
+				for(int n = 0; n < count-(i+1); n++) {
+					System.out.print("☆");
+				}System.out.println();
+			}
+	}
 	
 
 }
