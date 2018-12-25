@@ -1,6 +1,6 @@
-package kh.study.week1;
+package kh.study.chap1;
 
-public class Chart99 {
+public class Chart99sum {
 
 	public static void main(String[] args) {
 		for(int i  = 1; i < 10; i++) {
@@ -16,9 +16,11 @@ public class Chart99 {
 				if(j == 1) {
 					System.out.print(i+"  |\t");
 				}
-				System.out.print(i*j+"\t");
+				System.out.print(i+j+"\t");
 			}System.out.println();
 		}
 	}
 
 }
+
+

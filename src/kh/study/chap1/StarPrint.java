@@ -1,4 +1,4 @@
-package kh.study.week1;
+package kh.study.chap1;
 
 import java.util.Scanner;
 
