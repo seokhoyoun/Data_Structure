@@ -14,6 +14,16 @@ public class ReverseArr {
 			}System.out.println();
 		}
 		
+		int sum = SumOf(iar);
+		System.out.println("합계 : "+sum);
+	}
+
+	private static int SumOf(int[] iar) {
+		int sum = 0;
+		for(int i = 0; i < iar.length; i++) {
+			sum += iar[i];
+		}
+		return sum;
 	}
 
 }
